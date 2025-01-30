@@ -33,7 +33,7 @@ B站视频
    python学习的基础目标是能够通过vscode+anaconda环境编写并运行程序，解决exc1，此外能够完成conda环境的创建并在conda环境中通过pip和conda安装包，解决exc2.  
 
 
-2. **pytorch**
+2. **pytorch**  
    待续
-3. **git(可选)**
+3. **git(可选)**  
    待续
