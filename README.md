@@ -33,7 +33,24 @@ B站视频
    python学习的基础目标是能够通过vscode+anaconda环境编写并运行程序，解决exc1，此外能够完成conda环境的创建并在conda环境中通过pip和conda安装包，解决exc2.  
 
 
-2. **pytorch**  
-   待续
-3. **git(可选)**  
+2. **pytorch**
+   + **理论准备**  
+   深度学习首先需要构建一个网络模型，网络模型的结构有很多种，常见的包括CNN(卷积神经网络)、Transformer、RNN(循环神经网络)等，简单入门的建议是先学CNN,再学Transformer,最后了解GAN(生成对抗网络)、Diffusion(扩散模型)，LLM(大语言模型)等概念。  
+   实际上，深度学习可以主要用于自然语言处理和图像处理两个方面，这里主要以图像处理角度讲述。  
+   [CNN传送门](https://www.zhihu.com/people/followbobo/posts?page=3)  
+   [Vision Transformer传送门](https://zhuanlan.zhihu.com/p/418184940)  
+   不求一次性全部理解，但是至少有个概念，边编码边理解
+
+
+   + **编码实现**  
+   Pytorch是帮助我们实现网络模型结构的一种工具，类似的还有TensorFlow/昇腾等 [教程传送门](https://www.runoob.com/pytorch/pytorch-tutorial.html)。  
+
+   + **目标**  
+   学习使用Pytorch框架编码实现几种神经网络并完成一些简单的任务，完成exc3-5. (这里可能跨度有些大，需要理解一些概念（dataset、dataloadr, 优化器等）不过可以对着代码慢慢敲，边写边理解)   
+   exc3-通过Resnet18实现CIFAR10数据分类: [传送门](https://www.cnblogs.com/Elijah-Z/articles/16627824.html)  
+   exc4-通过Transformr实现CIFAR10数据分类: [传送门](https://blog.csdn.net/FriendshipTang/article/details/137832810)  
+   exc5(有一些挑战性)-论文复现（见exc5文件夹）
+  
+
+3. **git(可选)**
    待续
