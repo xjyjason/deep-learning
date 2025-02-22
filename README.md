@@ -53,8 +53,8 @@ B站视频
   
 
 3. **git(可选)**  
-   教程传送门（https://www.cnblogs.com/anding/p/16987769.html）
-   **目标**
+   教程传送门（https://www.cnblogs.com/anding/p/16987769.html）  
+   **目标**  
    学会创建git仓库，提交代码到远程仓库，创建和切换分支，通过git命令下载github上面的代码
    exc6-创建自己的github账户，并将exc3-5中一项的代码提交到github上
    
